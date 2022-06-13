@@ -1,0 +1,6 @@
+function celsiumToFar(input) {
+    let c = Number(input[0]);
+    let f = c * 1.8 + 32;
+    console.log(f.toFixed(2));
+}
+celsiumToFar(["25"]);
